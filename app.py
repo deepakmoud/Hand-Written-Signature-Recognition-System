@@ -84,7 +84,7 @@ else:
   st.image(image,caption='Uploaded Cheque', use_column_width=True)
   #st.image(resized,caption='Extracted Signature', use_column_width=True)
     
-if st.button("Revel Name"):
+if st.button("Reveal Name"):
   resultn=import_and_predict_n(resized)
   st.success('Model has predicted the Signature is of   {}'.format(resultn))
 
